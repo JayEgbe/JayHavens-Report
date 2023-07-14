@@ -1,0 +1,86 @@
+*{
+    padding-bottom:  2%;
+    margin: 0%;
+}
+
+body{
+    background: url("https://images.pexels.com/photos/12337672/pexels-photo-12337672.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background: linear-gradient( red, black,pink,green)
+}
+
+#creta{
+    color: green;
+    border: 5px solid red;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    background: url("https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    padding-bottom: 2%;
+}
+
+#creta p{
+    text-align: center;
+    width: 50%;
+    color: blueviolet;
+}
+
+#creta ol{
+    color: black;
+    font-size: 100%;
+}
+h2{
+    color:purple;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#red{
+    text-align: left;
+    color: yellow;
+    font-weight: bold;
+}
+
+div p{
+    color:black;
+}
+
+#class:hover{
+    color: tomato;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.para:hover{
+    background-color:brown;
+   
+}
+
+section h3:hover{
+    color: blue;
+}
+
+div section{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    font-weight: bold;
+    color: green;
+    font-style: oblique;
+}
+
+h3{
+    color: white;
+    font-size: 50px;
+}
+
+
+article p:hover{
+    color:black;
+    background-color: orange;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
