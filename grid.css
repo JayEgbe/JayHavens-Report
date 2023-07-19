@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient( to right, rgba(255, 255, 0, 0.836), green, white, rgba(0, 128, 21, 0.959));
+    
+}
+
+.new{
+    border: 1px solid black;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-right: 15px;
+    padding-top: 5%;
+    background-color: white;
+}
+
+
+#header{
+    background-color: red;
+    grid-column: 1/4;
+}
+
+#nav{
+    background-color: yellow;
+    grid-row: 2/4;
+}
+
+#content{
+    background-color: green;
+    grid-column: 2/4; 
+    height: 150px;
+}
+
+#footer{
+    background-color: aqua;
+    grid-column: 2/4;
+}
