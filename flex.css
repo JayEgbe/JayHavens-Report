@@ -1,0 +1,24 @@
+#flex{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+#image{
+    height: 30px;
+     /* align-items: center; */
+    align-self: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+#ref{
+    flex-direction: row;
+    align-self: end;
+}
+
+#list{
+    /* flex-direction: column;
+    align-items: end;
+    justify-content: end; */
+    /* text-decoration-line: line-through; */
+}
