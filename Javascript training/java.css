@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    padding-bottom: 10px; 
+}
+.about a{
+   color: rgb(113, 99, 99);
+   text-decoration: none;
+   font-weight: bold;
+   
+}
+.button{
+    border: none;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+.same{
+    cursor: pointer;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    background-color:rgb(79, 43, 79);
+}
+.download-1{
+    display: flex;
+    align-items: center;
+}
+.download img{
+    width: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    padding: 10px 5px;
+    gap: 5px;
+    
+}
+.logo-1{
+    display: flex;
+    align-items: center;
+}
+.category{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    gap: 2px;
+}
+#search-1{
+    padding: 5px;
+    width: 80%;
+    border: none;
+}
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.logo img{
+    width: 20px;   
+}
+.main{
+    width: 100%;
+    height: 35vh;
+    margin-top: 5px;   
+    background-color: rgb(149, 144, 144);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}   
+.main-1{
+    font-size: 1.5rem;
+    font-weight: bold;   
+}
+.click-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 1px 10px;
+    margin-bottom: 10px;
+}
+.click{
+   background-color: rgba(234, 223, 223, 0.964);
+   margin-top: 5px; 
+}
+.click-1 img{
+    width: 20px;
+}
+.click-1 a{
+    color: black;
+    text-decoration: none;
+}
+.course-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:20px 10px;
+}
+.course-1 img{
+    width: 25px;
+    border: black solid;
+    border-radius: 10px;
+}
+.course-1 h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.course{
+    background-color: rgb(247, 241, 232);
+}
+#card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin:0 10px;  
+}
+.code-1,.card-body img{
+    width: 90%;
+    height: 30vh;
+}
+
+.card-body button{
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 0.6rem;
+    padding:5px 5px;
+    width: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    gap: 50px;
+    font-size: 0.8rem;
+}
+.description{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 0.6rem;
+}
+#cart_Items{
+    height: 70vh;
+    width: 50vw;
+    background-color: bisque;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    border:1px solid black;
+
+}
+.cart-cont{
+    padding: 10px;
+}
+.cart-cont h2{
+    color: rgb(42, 192, 142);
+    margin-bottom: 20px;
+}
+.cart-cont .allitems .left img{
+   width: 150px;
+   height: 80px; 
+}
+.cart-cont .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-cont .allitems .items .left{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+.cart-cont .allitems .items .right{
+    padding:  5px 10px;
+    background-color: chocolate;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.cart-cont .allitems .items .middle button,.cart-cont .allitems .items .middle span{
+    padding: 5px;
+    border: none;
+    background-color: blue;
+    color: orange ;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.cart-cont .allitems .items .middle span{
+    color: white;
+}
+.cart-cont.allitems{
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+.cart-cont .allitems .items .middle{
+    display: flex;
+    gap: 7px;
+}
+.cart-cont .allitems .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(160, 92, 92);
+    padding-bottom: 5px;
+    
+}
+.hide{
+  display: none;  
+}
+
+@media(max-width: 700px){
+   
+    .download{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        background-color:rgb(79, 43, 79);
+        font-size: 0.6rem;
+    }
+    .about a{
+        color: rgb(8, 8, 8);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.6rem;
+             
+     }
+    .button{
+        display: flex;
+        font-size: 0.5rem;
+        border:none;
+        gap: 5px;
+        cursor: pointer;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: blanchedalmond;
+        margin-top: 2px;
+    }
+    .main{
+        width: 100%;
+        height: 35vh;
+        margin-top: 5px;
+        margin-bottom: 2px;   
+        background-color: rgb(149, 144, 144);
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px;
+    }   
+    .main-1{
+        font-size: 0.9rem;
+        font-weight: bold;
+        min-height: 50%;   
+    }
+    .click-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        margin: 1px 10px;
+        margin-bottom: 20px;
+    }
+    .click{
+       background-color: rgba(234, 223, 223, 0.964); 
+    }
+    .click-1 img{
+        width: 20px;
+    }
+    .click-1 a{
+        display: flex;
+        color: black;
+        font-size: 0.6rem;
+        text-decoration: none;
+    }
+    .course-1{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding:20px 10px;
+        color: red;
+    }
+    .course-1 img{
+        width: 30px;
+        border:1px black solid;
+        border-radius: 10px;
+    }
+    .course-1 h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .course{
+        background-color: rgb(247, 241, 232);
+    }
+    #card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px; 
+       
+      }
+    .code-1,.card-body img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+  
+    .card-body button{
+        border: 1px solid black;
+        border-radius: 50px;
+        font-size: 0.6rem;
+        padding:5px 5px;
+        background-color: rgb(180, 124, 21);
+        margin-bottom: 10px;
+        width: 50%;
+    }
+    .title{
+        display: flex;
+        font-size: 0.7rem;
+        margin-bottom: 10px;
+    }
+    .description{
+        text-decoration: none;
+        margin: 5px;
+        font-size: 0.6rem;
+    }
+}
